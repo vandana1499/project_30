@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+ <div id="wrapper">
+     <div id="content">
+         <nav id="primary">
+             <ul>
+                 <li><h1>Intro</h1><a href="#page-number-1" class="page-number-1">View</a></li>
+                 <li><h1>WOW</h1><a href="#page-number-2" class="page-number-2">View</a></li>
+                 <li><h1>MORE stuff</h1><a href="#page-number-3" class="page-number-3">View</a></li>
+                 <li><h1>Last page</h1><a href="#page-number-4" class="page-number-4">View</a></li>
+             </ul>
+         </nav>
+         <!--page1-->
+         <article id="page-number-1">
+              <header>
+                  <h1>PARALLAX DEMO</h1>
+              </header>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam laboriosam reiciendis magnam accusamus velit. Molestiae nisi saepe, aspernatur, hic in cum, a illo repudiandae aliquam nam consectetur id repellendus reprehenderit.</p>
+              <nav class="next-prev">
+                  <hr>
+                  <a href="#page-number-2" class="next page-number-2">
+                      next
+                  </a>
+              </nav>
+            </article>
+            <!--page2-->
+            <article id="page-number-2">
+                <header>
+                    <h1>wow!</h1>
+                </header>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam laboriosam reiciendis magnam accusamus velit. Molestiae nisi saepe, aspernatur, hic in cum, a illo repudiandae aliquam nam consectetur id repellendus reprehenderit.</p>
+                <nav class="next-prev">
+                    <a href="#page-number-1" class="prev page-number-1">Preview</a>
+                    <hr>
+                    <a href="#page-number-3" class="next page-number-3">
+                        next
+                    </a>
+                </nav>
+              </article>
+              <!--page3-->
+              <article id="page-number-3">
+                    <header>
+                        <h1>MORE stuff...</h1>
+                    </header>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam laboriosam reiciendis magnam accusamus velit. Molestiae nisi saepe, aspernatur, hic in cum, a illo repudiandae aliquam nam consectetur id repellendus reprehenderit.</p>
+                    <nav class="next-prev">
+                        <a href="#page-number-2" class="prev page-number-2">Preview</a>
+                        <hr>
+                        <a href="#page-number-4" class="next page-number-4">
+                            next
+                        </a>
+                    </nav>
+                  </article>
+                  <!--page4-->
+                  <article id="page-number-4">
+                        <header>
+                            <h1>last page</h1>
+                        </header>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam laboriosam reiciendis magnam accusamus velit. Molestiae nisi saepe, aspernatur, hic in cum, a illo repudiandae aliquam nam consectetur id repellendus reprehenderit.</p>
+                        <nav class="next-prev">
+                            <a href="#page-number-3" class="prev page-number-3">Preview</a>
+                            <hr>
+                        </nav>
+                      </article>
+     </div>
+
+     <div id="parallax-bg-1">
+         <img src="img/cloud2.png" alt="cloud" id="bg1-1">
+         <img src="img/cloud2.png" alt="cloud" id="bg1-2">
+         <img src="img/cloud2.png" alt="cloud" id="bg1-3">
+         <img src="img/cloud2.png" alt="cloud" id="bg1-4">
+         <img src="img/cloud2.png" alt="cloud" id="bg1-5">
+     </div>
+     
+     <div id="parallax-bg-2">
+          <img src="img/cloud3.png" alt="" id="mmg2-1">
+          <img src="img/cloud3.png" alt="" id="mmg2-2">
+          <img src="img/cloud3.png" alt="" id="mmg2-3">
+          <img src="img/cloud3.png" alt="" id="mmg2-4">
+          <img src="img/cloud3.png" alt="" id="mmg2-5">
+          <img src="img/cloud3.png" alt="" id="mmg2-6">
+          <img src="img/cloud3.png" alt="" id="mmg2-7">
+        </div>
+   
+      
+        <div id="parallax-bg-3">
+                <img src="img/twitter.png" alt="" id="fg3-1" width="529" height="386">
+                <img src="img/facebook.png" alt="" id="fg3-2" width="603" height="603">
+                <img src="img/linkedin.png" alt="" id="fg3-3" width="446" height="446">
+                <img src="img/landscape.png" alt="" id="fg3-4" width="1104" height="592">
+                <img src="img/design-festival-logo.png" alt="" id="fg3-5" width="135" height="136">
+              </div>
+ </div>
+ <script src="script.js"></script>
+ <script src="jquery.js"></script>
+ <script src="modern.js"></script>
+ <script src="parallax.js"></script>   
+</body>
+</html>
